@@ -10,4 +10,7 @@ app.use("/api", routes)
 
 app.listen(port, () => {
     console.log(`listening on port ${port}`);
+    console.log(
+        'check'
+    )
 })
